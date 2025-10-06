@@ -1,68 +1,68 @@
-# Workshop Spring Boot 3 com JPA
+# Workshop Spring Boot 3 with JPA
 
 ![Java](https://img.shields.io/badge/Java-17-blue) 
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen) 
 ![Maven](https://img.shields.io/badge/Maven-4-red) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Este projeto foi desenvolvido durante o curso **"Java COMPLETO - Programação Orientada a Objetos + Projetos"** do professor **Nélio Alves** na Udemy.  
-O objetivo é praticar os conceitos de **APIs RESTful** utilizando **Spring Boot 3** e **JPA/Hibernate**.  
+This project was developed during the **"Java COMPLETO - Object-Oriented Programming + Projects"** course by **Nélio Alves** on Udemy.  
+The goal is to practice **RESTful API** development concepts using **Spring Boot 3** and **JPA/Hibernate**.  
 
 ---
 
-## 📖 Visão Geral
+## 📖 Overview
 
-A aplicação consiste em um sistema simples de gerenciamento de pedidos, usuários, categorias e produtos.  
-Foram explorados os principais fundamentos de:
+This application is a simple system for managing orders, users, categories, and products.  
+It explores fundamental concepts such as:
 
-- Mapeamento objeto-relacional com **JPA/Hibernate**  
-- Relacionamentos entre entidades  
-- Tratamento de exceções personalizadas  
-- Perfis de execução para ambientes diferentes (test/dev)  
-- Estruturação de camadas em uma aplicação Spring Boot  
+- Object-relational mapping with **JPA/Hibernate**  
+- Relationships between entities  
+- Custom exception handling  
+- Environment-specific profiles (test/dev)  
+- Layered architecture in a Spring Boot application  
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
 - **Java 17**  
 - **Spring Boot 3**  
 - **Spring Data JPA / Hibernate**  
 - **Maven**  
-- **H2 Database** (banco em memória para testes)  
+- **H2 Database** (in-memory database for testing)  
 
 ---
 
-## ⚙️ Funcionalidades Implementadas
+## ⚙️ Implemented Features
 
-- Cadastro e listagem de usuários, pedidos e produtos  
-- Relacionamentos entre pedidos, categorias e itens de pedido  
-- Manipulação de datas com `Instant` e `ISO 8601`  
-- Tratamento centralizado de exceções  
+- Create and list users, orders, and products  
+- Relationships between orders, categories, and order items  
+- Date handling with `Instant` and `ISO 8601`  
+- Centralized exception handling  
 
 ---
 
-## ▶️ Como Executar o Projeto Localmente
+## ▶️ How to Run the Project Locally
 
-1. Clone este repositório:
+1. Clone this repository:
 
 ```
 git clone https://github.com/rdramos1/workshop-springboot3-jpa.git
 ```
 
-2. Entre na pasta do projeto:
+2. Navigate into the project folder:
 
 ```
 cd workshop-springboot3-jpa
 ```
 
-3. Execute com o Maven:
+3. Run the project using Maven:
 
 ```
 mvn spring-boot:run
 ```
 
-4. Acesse no navegador ou no Postman:
+4. Access via browser or Postman:
 
 ```
 http://localhost:8080
@@ -70,14 +70,16 @@ http://localhost:8080
 
 ---
 
-## 📌 Observações
+## 📌 Notes
 
-- Este projeto tem fins **didáticos**.  
-- É recomendado ter **Java 17+** e **Maven** instalados.  
+- This project was created for **educational purposes**.  
+- Make sure you have **Java 17+** and **Maven** installed.  
 
 ---
 
-## 👤 Autor
-- LinkedIn: [Ricardo Ramos](https://www.linkedin.com/in/rdramos1)
-- Email: dev.ricardoramos@gmail.com
+## 👤 Author
 
+**Ricardo Davi Ramos Figueiredo** (professionally **Ricardo Ramos**)  
+
+- LinkedIn: [Ricardo Ramos](https://www.linkedin.com/in/rdramos1)  
+- Email: dev.ricardoramos@gmail.com  
