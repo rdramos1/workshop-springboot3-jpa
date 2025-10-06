@@ -70,6 +70,25 @@ http://localhost:8080
 
 ---
 
+## 🌐 Main REST Endpoints
+
+Below is a summary of the main API endpoints available in the project.  
+All requests return data in **JSON** format.
+
+| HTTP Method | Endpoint | Description |
+|--------------|-----------|-------------|
+| **GET** | `/users` | Retrieve all users |
+| **GET** | `/users/{id}` | Retrieve a user by ID |
+| **POST** | `/users` | Create a new user |
+| **DELETE** | `/users/{id}` | Delete a user by ID |
+| **GET** | `/orders` | Retrieve all orders |
+| **GET** | `/orders/{id}` | Retrieve an order by ID |
+| **GET** | `/products` | Retrieve all products |
+| **GET** | `/products/{id}` | Retrieve a product by ID |
+| **GET** | `/categories` | Retrieve all categories |
+| **GET** | `/categories/{id}` | Retrieve a category by ID |
+
+---
 ## 📌 Notes
 
 - This project was created for **educational purposes**.  
